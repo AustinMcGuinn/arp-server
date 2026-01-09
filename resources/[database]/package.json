@@ -1,0 +1,15 @@
+{
+  "name": "@resources/database",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ../../scripts/build.mjs --resource=[database]",
+    "dev": "node ../../scripts/build.mjs --resource=[database] --watch"
+  },
+  "dependencies": {
+    "@framework/types": "workspace:*",
+    "@framework/utils": "workspace:*",
+    "@planetscale/database": "^1.13.0",
+    "drizzle-orm": "^0.29.1"
+  }
+}

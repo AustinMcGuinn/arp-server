@@ -1,0 +1,19 @@
+{
+  "name": "@resources/websocket",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ../../scripts/build.mjs --resource=[websocket]",
+    "dev": "node ../../scripts/build.mjs --resource=[websocket] --watch"
+  },
+  "dependencies": {
+    "@framework/types": "workspace:*",
+    "@framework/utils": "workspace:*",
+    "ws": "^8.14.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "@types/jsonwebtoken": "^9.0.5"
+  }
+}

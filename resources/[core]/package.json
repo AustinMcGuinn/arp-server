@@ -1,0 +1,13 @@
+{
+  "name": "@resources/core",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ../../scripts/build.mjs --resource=[core]",
+    "dev": "node ../../scripts/build.mjs --resource=[core] --watch"
+  },
+  "dependencies": {
+    "@framework/types": "workspace:*",
+    "@framework/utils": "workspace:*"
+  }
+}

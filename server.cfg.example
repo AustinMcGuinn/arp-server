@@ -1,0 +1,30 @@
+# FiveM Server Configuration Example
+# Copy this to your server's server.cfg and modify as needed
+
+# Server Info
+sv_hostname "My FiveM Server"
+sv_maxclients 32
+sv_licenseKey "your_license_key_here"
+
+# OneSync
+onesync on
+onesync_distanceCullVehicles false
+onesync_enableBeyond true
+
+# Framework Convars
+set database_url "mysql://username:password@host/database?ssl={\"rejectUnauthorized\":true}"
+set ws_port "3001"
+set ws_jwt_secret "your-super-secret-jwt-key-change-this"
+
+# Start Framework Resources
+ensure [core]
+ensure [database]
+ensure [websocket]
+ensure character-selection
+ensure character-creation
+ensure inventory
+ensure jobs
+ensure vehicles
+
+# Other Resources (optional)
+# ensure your-other-resource

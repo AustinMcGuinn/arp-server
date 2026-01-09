@@ -1,0 +1,13 @@
+{
+  "name": "@resources/inventory",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ../../scripts/build.mjs --resource=inventory",
+    "dev": "node ../../scripts/build.mjs --resource=inventory --watch"
+  },
+  "dependencies": {
+    "@framework/types": "workspace:*",
+    "@framework/utils": "workspace:*"
+  }
+}

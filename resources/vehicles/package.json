@@ -1,0 +1,13 @@
+{
+  "name": "@resources/vehicles",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ../../scripts/build.mjs --resource=vehicles",
+    "dev": "node ../../scripts/build.mjs --resource=vehicles --watch"
+  },
+  "dependencies": {
+    "@framework/types": "workspace:*",
+    "@framework/utils": "workspace:*"
+  }
+}

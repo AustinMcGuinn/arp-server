@@ -1,0 +1,13 @@
+{
+  "name": "@resources/jobs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ../../scripts/build.mjs --resource=jobs",
+    "dev": "node ../../scripts/build.mjs --resource=jobs --watch"
+  },
+  "dependencies": {
+    "@framework/types": "workspace:*",
+    "@framework/utils": "workspace:*"
+  }
+}

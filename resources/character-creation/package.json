@@ -1,0 +1,13 @@
+{
+  "name": "@resources/character-creation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ../../scripts/build.mjs --resource=character-creation",
+    "dev": "node ../../scripts/build.mjs --resource=character-creation --watch"
+  },
+  "dependencies": {
+    "@framework/types": "workspace:*",
+    "@framework/utils": "workspace:*"
+  }
+}
